@@ -13,6 +13,9 @@
 		D40CF41D1E0AFE3A00C820A8 /* Ubuntu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D40CF41B1E0AFE3A00C820A8 /* Ubuntu.xcdatamodeld */; };
 		D40CF41F1E0AFE3A00C820A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40CF41E1E0AFE3A00C820A8 /* Assets.xcassets */; };
 		D40CF4221E0AFE3A00C820A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40CF4201E0AFE3A00C820A8 /* LaunchScreen.storyboard */; };
+		D4965EB01E11BB1E008FBDB3 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */; };
+		D4965EB21E11BC42008FBDB3 /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */; };
+		D4965EB41E11C528008FBDB3 /* Original_Olinda_Style.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D40CF41E1E0AFE3A00C820A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40CF4211E0AFE3A00C820A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D40CF4231E0AFE3A00C820A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
+		D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
+		D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Original_Olinda_Style.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		D40CF4081E0AFE3A00C820A8 = {
 			isa = PBXGroup;
 			children = (
+				D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */,
+				D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */,
+				D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */,
 				D40CF4131E0AFE3A00C820A8 /* Ubuntu */,
 				D40CF4121E0AFE3A00C820A8 /* Products */,
 			);
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					D40CF4101E0AFE3A00C820A8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A975LQD622;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D40CF4221E0AFE3A00C820A8 /* LaunchScreen.storyboard in Resources */,
+				D4965EB21E11BC42008FBDB3 /* SF-UI-Display-Bold.otf in Resources */,
+				D4965EB41E11C528008FBDB3 /* Original_Olinda_Style.ttf in Resources */,
 				D40CF41F1E0AFE3A00C820A8 /* Assets.xcassets in Resources */,
+				D4965EB01E11BB1E008FBDB3 /* SF-UI-Text-Regular.otf in Resources */,
 				D40CF41A1E0AFE3A00C820A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A975LQD622;
 				INFOPLIST_FILE = Ubuntu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VTR.Ubuntu;
@@ -276,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A975LQD622;
 				INFOPLIST_FILE = Ubuntu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VTR.Ubuntu;
@@ -303,6 +318,7 @@
 				D40CF4281E0AFE3A00C820A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
