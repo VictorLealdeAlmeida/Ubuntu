@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Blogger_Sans.otf">
+            <string>BloggerSans</string>
+        </array>
         <array key="Original_Olinda_Style.ttf">
             <string>OriginalOlindaStyle</string>
-        </array>
-        <array key="SF-UI-Text-Regular.otf">
-            <string>SFUIText-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -44,7 +44,7 @@
 E se hoje ele é branco na poesia
 Se hoje ele é branco na poesia
 Ele é negro demais no coração</string>
-                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="15"/>
+                                        <fontDescription key="fontDescription" name="BloggerSans" family="Blogger Sans" pointSize="17"/>
                                         <color key="textColor" red="0.41932731866836548" green="0.24026572704315186" blue="0.019396493211388588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -65,7 +65,7 @@ Ele é negro demais no coração</string>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Baden Powel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNJ-UG-t1E">
                                         <rect key="frame" x="8" y="35" width="271" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="BloggerSans" family="Blogger Sans" pointSize="15"/>
                                         <color key="textColor" red="0.56171578170000003" green="0.31887957449999998" blue="0.021652629600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>

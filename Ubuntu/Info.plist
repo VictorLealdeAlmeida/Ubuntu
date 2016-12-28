@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Blogger_Sans.otf</string>
 		<string>Original_Olinda_Style.ttf</string>
 		<string>SF-UI-Text-Regular</string>
 		<string>SF-UI-Display-Bold.otf</string>

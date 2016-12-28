@@ -13,6 +13,7 @@
 		D40CF41D1E0AFE3A00C820A8 /* Ubuntu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D40CF41B1E0AFE3A00C820A8 /* Ubuntu.xcdatamodeld */; };
 		D40CF41F1E0AFE3A00C820A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40CF41E1E0AFE3A00C820A8 /* Assets.xcassets */; };
 		D40CF4221E0AFE3A00C820A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40CF4201E0AFE3A00C820A8 /* LaunchScreen.storyboard */; };
+		D47682651E11D42100682441 /* Blogger_Sans.otf in Resources */ = {isa = PBXBuildFile; fileRef = D47682641E11D42100682441 /* Blogger_Sans.otf */; };
 		D4965EB01E11BB1E008FBDB3 /* SF-UI-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */; };
 		D4965EB21E11BC42008FBDB3 /* SF-UI-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */; };
 		D4965EB41E11C528008FBDB3 /* Original_Olinda_Style.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */; };
@@ -27,6 +28,7 @@
 		D40CF41E1E0AFE3A00C820A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40CF4211E0AFE3A00C820A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D40CF4231E0AFE3A00C820A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47682641E11D42100682441 /* Blogger_Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blogger_Sans.otf; sourceTree = "<group>"; };
 		D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Regular.otf"; sourceTree = "<group>"; };
 		D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Display-Bold.otf"; sourceTree = "<group>"; };
 		D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Original_Olinda_Style.ttf; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				D4965EAF1E11BB14008FBDB3 /* SF-UI-Text-Regular.otf */,
 				D4965EB11E11BC42008FBDB3 /* SF-UI-Display-Bold.otf */,
+				D47682641E11D42100682441 /* Blogger_Sans.otf */,
 				D4965EB31E11C528008FBDB3 /* Original_Olinda_Style.ttf */,
 				D40CF4131E0AFE3A00C820A8 /* Ubuntu */,
 				D40CF4121E0AFE3A00C820A8 /* Products */,
@@ -138,6 +141,7 @@
 			files = (
 				D40CF4221E0AFE3A00C820A8 /* LaunchScreen.storyboard in Resources */,
 				D4965EB21E11BC42008FBDB3 /* SF-UI-Display-Bold.otf in Resources */,
+				D47682651E11D42100682441 /* Blogger_Sans.otf in Resources */,
 				D4965EB41E11C528008FBDB3 /* Original_Olinda_Style.ttf in Resources */,
 				D40CF41F1E0AFE3A00C820A8 /* Assets.xcassets in Resources */,
 				D4965EB01E11BB1E008FBDB3 /* SF-UI-Text-Regular.otf in Resources */,
