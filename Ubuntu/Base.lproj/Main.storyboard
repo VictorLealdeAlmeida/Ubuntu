@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -29,13 +31,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="afro1" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-q1-0q3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afro1" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-q1-0q3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <view alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHN-YI-3hv">
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHN-YI-3hv">
                                 <rect key="frame" x="16" y="108" width="288" height="165"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9D-WJ-38Y">
                                         <rect key="frame" x="8" y="8" width="271" height="148"/>
@@ -50,6 +50,9 @@ Ele é negro demais no coração</string>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tHN-YI-3hv" secondAttribute="height" multiplier="96:55" id="FHk-P7-lED"/>
+                                </constraints>
                             </view>
                             <view alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-Q1-HhN">
                                 <rect key="frame" x="16" y="306" width="288" height="81"/>
@@ -74,6 +77,15 @@ Ele é negro demais no coração</string>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="17T-Ml-Wk5"/>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="BMf-Yz-kto"/>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bxh-mJ-gkU"/>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ecf-us-5A1"/>
+                            <constraint firstItem="tHN-YI-3hv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="fwP-mf-DsU"/>
+                            <constraint firstItem="tHN-YI-3hv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nj9-Dx-wJ8"/>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="top" secondItem="tHN-YI-3hv" secondAttribute="bottom" constant="-273" id="wmf-dL-9ze"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="author" destination="mNJ-UG-t1E" id="xb2-bb-f0j"/>
