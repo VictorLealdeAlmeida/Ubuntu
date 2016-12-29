@@ -34,12 +34,14 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="afro1" translatesAutoresizingMaskIntoConstraints="NO" id="Nf3-q1-0q3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <view alpha="0.90000000000000002" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tHN-YI-3hv">
-                                <rect key="frame" x="16" y="108" width="288" height="165"/>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tHN-YI-3hv">
+                                <rect key="frame" x="16" y="120" width="288" height="165"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9D-WJ-38Y">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9D-WJ-38Y">
                                         <rect key="frame" x="8" y="8" width="271" height="148"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="u9D-WJ-38Y" secondAttribute="height" multiplier="271:148" id="4DC-Ap-hgD"/>
+                                        </constraints>
                                         <string key="text">Porque o samba nasceu lá na Bahia
 E se hoje ele é branco na poesia
 Se hoje ele é branco na poesia
@@ -52,21 +54,28 @@ Ele é negro demais no coração</string>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="tHN-YI-3hv" secondAttribute="height" multiplier="96:55" id="FHk-P7-lED"/>
+                                    <constraint firstItem="u9D-WJ-38Y" firstAttribute="centerY" secondItem="tHN-YI-3hv" secondAttribute="centerY" id="b3D-Zl-BoH"/>
+                                    <constraint firstItem="u9D-WJ-38Y" firstAttribute="width" secondItem="tHN-YI-3hv" secondAttribute="width" multiplier="0.9" id="ezU-Tp-9EL"/>
+                                    <constraint firstItem="u9D-WJ-38Y" firstAttribute="centerX" secondItem="tHN-YI-3hv" secondAttribute="centerX" id="tSS-tR-aQo"/>
                                 </constraints>
                             </view>
-                            <view alpha="0.90000000000000002" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-Q1-HhN">
-                                <rect key="frame" x="16" y="306" width="288" height="81"/>
+                            <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcY-Q1-HhN">
+                                <rect key="frame" x="16" y="318" width="288" height="81"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Samba de Benção" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmW-f6-CRX">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Samba de Benção" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OmW-f6-CRX">
                                         <rect key="frame" x="8" y="8" width="271" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="OmW-f6-CRX" secondAttribute="height" multiplier="271:37" id="0r4-fS-OmG"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="OriginalOlindaStyle" family="Original Olinda Style" pointSize="16"/>
                                         <color key="textColor" red="0.56171578170000003" green="0.31887957449999998" blue="0.021652629600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Baden Powel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNJ-UG-t1E">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Baden Powel" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNJ-UG-t1E">
                                         <rect key="frame" x="8" y="35" width="271" height="37"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mNJ-UG-t1E" secondAttribute="height" multiplier="271:37" id="o5p-yb-yV4"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="BloggerSans" family="Blogger Sans" pointSize="15"/>
                                         <color key="textColor" red="0.56171578170000003" green="0.31887957449999998" blue="0.021652629600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -74,7 +83,13 @@ Ele é negro demais no coração</string>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="mNJ-UG-t1E" firstAttribute="width" secondItem="FcY-Q1-HhN" secondAttribute="width" multiplier="0.9" id="6LN-TE-rne"/>
+                                    <constraint firstItem="OmW-f6-CRX" firstAttribute="centerX" secondItem="FcY-Q1-HhN" secondAttribute="centerX" id="EGb-Fe-QpD"/>
+                                    <constraint firstItem="mNJ-UG-t1E" firstAttribute="centerX" secondItem="FcY-Q1-HhN" secondAttribute="centerX" id="Ecy-nW-VnV"/>
                                     <constraint firstAttribute="width" secondItem="FcY-Q1-HhN" secondAttribute="height" multiplier="32:9" id="Liy-CI-zp8"/>
+                                    <constraint firstItem="OmW-f6-CRX" firstAttribute="top" secondItem="FcY-Q1-HhN" secondAttribute="top" constant="8" id="Rax-Aq-BhU"/>
+                                    <constraint firstItem="mNJ-UG-t1E" firstAttribute="top" secondItem="OmW-f6-CRX" secondAttribute="bottom" constant="-10" id="UaB-KS-WXG"/>
+                                    <constraint firstItem="OmW-f6-CRX" firstAttribute="width" secondItem="FcY-Q1-HhN" secondAttribute="width" multiplier="0.9" id="ep0-HA-3FC"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -87,6 +102,7 @@ Ele é negro demais no coração</string>
                             <constraint firstItem="FcY-Q1-HhN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zjz-6F-uUT"/>
                             <constraint firstItem="Nf3-q1-0q3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ecf-us-5A1"/>
                             <constraint firstItem="tHN-YI-3hv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="fwP-mf-DsU"/>
+                            <constraint firstItem="tHN-YI-3hv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="jRj-il-I42"/>
                             <constraint firstItem="FcY-Q1-HhN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="jkD-18-CSl"/>
                             <constraint firstItem="tHN-YI-3hv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nj9-Dx-wJ8"/>
                         </constraints>
