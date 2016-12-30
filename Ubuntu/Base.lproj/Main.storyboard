@@ -92,15 +92,38 @@ Ele é negro demais no coração</string>
                                     <constraint firstItem="OmW-f6-CRX" firstAttribute="width" secondItem="FcY-Q1-HhN" secondAttribute="width" multiplier="0.9" id="ep0-HA-3FC"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7n-su-X3o">
+                                <rect key="frame" x="16" y="526" width="22" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="T7n-su-X3o" secondAttribute="height" multiplier="1:1" id="xsJ-Xu-Evf"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="info:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g3a-NJ-uSq"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed by Freepik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh4-6s-x98">
+                                <rect key="frame" x="85" y="525" width="150" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jh4-6s-x98" secondAttribute="height" multiplier="150:23" id="vw2-jz-jJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Nf3-q1-0q3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="17T-Ml-Wk5"/>
+                            <constraint firstItem="T7n-su-X3o" firstAttribute="top" secondItem="Nf3-q1-0q3" secondAttribute="bottom" constant="-42" id="3j7-Lt-P98"/>
                             <constraint firstItem="Nf3-q1-0q3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="BMf-Yz-kto"/>
                             <constraint firstItem="Nf3-q1-0q3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Bxh-mJ-gkU"/>
+                            <constraint firstItem="jh4-6s-x98" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HbY-8s-Y0g"/>
                             <constraint firstItem="FcY-Q1-HhN" firstAttribute="top" secondItem="tHN-YI-3hv" secondAttribute="bottom" constant="33" id="Jd9-UQ-HFJ"/>
+                            <constraint firstItem="jh4-6s-x98" firstAttribute="top" secondItem="Nf3-q1-0q3" secondAttribute="bottom" constant="-43" id="Mot-EZ-a3I"/>
                             <constraint firstItem="FcY-Q1-HhN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zjz-6F-uUT"/>
                             <constraint firstItem="Nf3-q1-0q3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ecf-us-5A1"/>
+                            <constraint firstItem="Nf3-q1-0q3" firstAttribute="leading" secondItem="T7n-su-X3o" secondAttribute="trailing" constant="-38" id="f9e-sV-Lyb"/>
                             <constraint firstItem="tHN-YI-3hv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="fwP-mf-DsU"/>
                             <constraint firstItem="tHN-YI-3hv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="jRj-il-I42"/>
                             <constraint firstItem="FcY-Q1-HhN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="jkD-18-CSl"/>
@@ -110,6 +133,7 @@ Ele é negro demais no coração</string>
                     <connections>
                         <outlet property="author" destination="mNJ-UG-t1E" id="xb2-bb-f0j"/>
                         <outlet property="background" destination="Nf3-q1-0q3" id="hp6-nJ-Rmx"/>
+                        <outlet property="byFreepik" destination="jh4-6s-x98" id="pDV-cv-vSU"/>
                         <outlet property="text" destination="u9D-WJ-38Y" id="lLD-GS-q9V"/>
                         <outlet property="textView" destination="tHN-YI-3hv" id="imU-e1-FhF"/>
                         <outlet property="titleMusic" destination="OmW-f6-CRX" id="CnD-Dr-m5G"/>

@@ -27,6 +27,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleMusic: UILabel!
     @IBOutlet weak var author: UILabel!
     
+    @IBOutlet weak var byFreepik: UILabel!
+    
     var textsBool : Array<Bool> = []
     var countAsk = 0
     
@@ -150,6 +152,14 @@ class ViewController: UIViewController {
     
     func random(count : Int) -> Int{
         return Int(arc4random_uniform(UInt32(count))) // range is 0 to count
+    }
+    
+    @IBAction func info(_ sender: Any) {
+        if byFreepik.isHidden{
+            byFreepik.isHidden = false
+        }else{
+            byFreepik.isHidden = true
+        }
     }
     
     func choiceMusic(){
