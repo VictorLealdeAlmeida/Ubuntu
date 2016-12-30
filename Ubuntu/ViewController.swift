@@ -46,7 +46,31 @@ class ViewController: UIViewController {
         }
         
         choiceMusic()
+       
+        
+        print(UIDevice.current.model)
     }
+    
+  /*  func sizeFont(){
+        switch UIDevice.current.model {
+        case .iPhone4:
+            fallthrough
+        case .iPhone5:
+            print("No TouchID sensor")
+        case .iPhone5S:
+            fallthrough
+        case .iPhone6:
+            fallthrough
+        case .iPhone6plus:
+            fallthrough
+        case .iPhone6S:
+            fallthrough
+        case .iPhone6Splus:
+            
+        default:
+            print("I am not equipped to handle this device")
+        }
+    }*/
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         changeBackground()
