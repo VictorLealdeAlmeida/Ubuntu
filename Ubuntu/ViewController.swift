@@ -8,6 +8,13 @@
 
 import UIKit
 
+extension UILabel {
+    func setSizeFont (sizeFont: Double) {
+        self.font =  UIFont(name: self.font.fontName, size: CGFloat(sizeFont))!
+        self.sizeToFit()
+    }
+}
+
 class ViewController: UIViewController {
 
     
@@ -46,9 +53,51 @@ class ViewController: UIViewController {
         }
         
         choiceMusic()
-       
+        iPhoneScreenSizes()
         
-        print(UIDevice.current.model)
+        let bounds = UIScreen.main.bounds
+        let height = bounds.size.height
+        print(height)
+    }
+    
+    
+    func iPhoneScreenSizes(){
+        let bounds = UIScreen.main.bounds
+        let height = bounds.size.height
+        
+        switch height {
+        case 568.0:
+            print("iPhone SE")
+            text.setSizeFont(sizeFont: 17)
+            titleMusic.setSizeFont(sizeFont: 16)
+            author.setSizeFont(sizeFont: 15)
+        case 667.0:
+            print("iPhone 7")
+            text.setSizeFont(sizeFont: 18)
+            titleMusic.setSizeFont(sizeFont: 17)
+            author.setSizeFont(sizeFont: 16)
+        case 736.0:
+            print("iPhone 7+")
+            text.setSizeFont(sizeFont: 23)
+            titleMusic.setSizeFont(sizeFont: 22)
+            author.setSizeFont(sizeFont: 21)
+        case 1024.0:
+            print("iPad")
+            text.setSizeFont(sizeFont: 36)
+            titleMusic.setSizeFont(sizeFont: 34)
+            author.setSizeFont(sizeFont: 32)
+        case 1366.0:
+            print("iPad 12")
+            text.setSizeFont(sizeFont: 42)
+            titleMusic.setSizeFont(sizeFont: 38)
+            author.setSizeFont(sizeFont: 36)
+            
+        default:
+            print("not an iPhone")
+            
+        }
+        
+        
     }
     
   /*  func sizeFont(){
